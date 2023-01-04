@@ -26,7 +26,7 @@ The script uses AI* to determine what app is talking to it, based off the enviro
 ## Installation/Use
 Put the script somewhere the applications can access it. For my purposes (docker), I put the script in a directory and then mapped that directory to each instance as read-only.
 
-Edit the script and set TOKEN and DOMAIN. TOKEN is the Access Token for the Application you've created in your Mastodon account.
+Edit the script and set TOKEN and DOMAIN. TOKEN is the Access Token for the Application you've created in your Mastodon account.  See [this blog post](https://blog.joyrex.net/making-a-mastodon-bot-account-and-integrating-with-arrs) for information about getting a mastodon account set up.
 
 Go to each of the apps->Settings->Connect->"+" sign button->Custom Script
 
