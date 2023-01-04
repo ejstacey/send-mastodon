@@ -12,8 +12,8 @@ I also use the docker images for all these from [linuxserver.io](https://www.lin
 
 ## The script
 The script uses the following tools, all already in the docker images for all of the above apps. Bold ones are the main things:
-- *bash*
-- *curl*
+- **bash**
+- **curl**
 - cut
 - date
 - md5sum
@@ -35,7 +35,7 @@ Go to each of the apps->Settings->Connect->"+" sign button->Custom Script
 Add in the script and select Test.
 
 ## Customisation
-If you look at the script, you'll see it basically only worries about a couple event types, not all the event types each application offers. This is because I only use a couple notifications, so didn't bother filling it out.  Using the existing script, you should be able to tailor it how you'd like.
+If you look at the script, you'll see it basically only worries about a couple event types, not all the event types each application offers. This is because I only use a couple notifications, so didn't bother filling it out. Using the existing script, you should be able to tailor it how you'd like.
 
 The list of environment variables it can use (and the event types) are listed here for each application:
 - [sonarr](https://wiki.servarr.com/sonarr/custom-scripts)
